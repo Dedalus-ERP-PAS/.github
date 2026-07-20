@@ -5,7 +5,7 @@
 > (commandes de build, branche cible, scopes, workflow de release) qui **prime**
 > sur ce document.
 
-Ce guide décrit le **socle commun** aux différentes familles de projets (Suite,
+Ce guide décrit le **socle commun** aux différentes familles de projets (WebSuite,
 Hexagone, PMSI…). Les spécificités de chaque projet sont documentées dans son
 `README`, ses `docs/` et, le cas échéant, ses ADR.
 

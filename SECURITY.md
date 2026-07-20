@@ -5,8 +5,9 @@
 
 La sécurité des logiciels de santé que nous éditons est une priorité. Nos
 applications traitent des données sensibles (données patient, flux
-d'interopérabilité HL7/HPRIM/HPK/IHE PAM) : nous prenons tout signalement de
-vulnérabilité au sérieux.
+d'interopérabilité HL7/HPRIM/HPK/IHE PAM) et sont soumises à des exigences
+réglementaires (**RGPD**, hébergement de données de santé — **HDS**) : nous
+prenons tout signalement de vulnérabilité au sérieux.
 
 ## Signaler une vulnérabilité
 
@@ -16,11 +17,12 @@ avant qu'un correctif ne soit disponible.
 
 Utilisez l'un des canaux privés suivants, par ordre de préférence :
 
-1. **GitHub Private Vulnerability Reporting** — sur le dépôt concerné, onglet
-   **Security → Report a vulnerability**. C'est le canal privilégié : le
-   signalement reste confidentiel et suit le cycle de correction via une
-   *security advisory*.
-2. **Contact sécurité** — à défaut, écrivez à `<security-contact@dedalus.com>`
+1. **GitHub Private Vulnerability Reporting** — pour un dépôt hébergé sur
+   GitHub : onglet **Security → Report a vulnerability**. C'est le canal
+   privilégié : le signalement reste confidentiel et suit le cycle de correction
+   via une *security advisory*.
+2. **Contact sécurité** — à défaut (notamment pour les dépôts hébergés sur
+   GitLab), écrivez à `<security-contact@dedalus.com>`
    *(à confirmer / remplacer par l'adresse ou le PSIRT officiel Dedalus)*.
 
 Merci d'inclure autant d'éléments que possible :

@@ -1,37 +1,31 @@
-## Description
+<!-- Titre en Conventional Commits : feat(scope): … / fix(scope): … / chore(scope): …
+     (ou la convention propre au dépôt, ex. préfixe de clé Jira). -->
 
-Qu'est-ce que cette pull request corrige ou apporte-t-elle ?
+## Objet
 
-## Issue / Jira
+<!-- Quoi + pourquoi, en une ou deux phrases orientées métier. -->
 
-Lien vers l'issue résolue (`Closes #123`) et, le cas échéant, le ticket Jira
-(ex. **HEX-666**) pour l'intégration automatique.
+## Changements
 
-## Rapport de test
+-
 
-> ⚠️ **Obligatoire.** Ce rapport prouve que le changement fonctionne et permet de
-> **rejouer le test plus tard** (non-régression). Remplacez chaque `...` par le
-> contenu réel.
+## Périmètre
 
-**Type de test :** <!-- Manuel / Automatisé (E2E, unitaire) / Les deux -->
-...
+- [ ] Backend (service : …)
+- [ ] Frontend (module / MF : …)
+- [ ] Docs / ADR
+- [ ] CI / infra
 
-**Prérequis / jeu de données :** <!-- Version, environnement, paramétrage… -->
-...
+## Validation
 
-**Étapes de reproduction :**
-1. ...
-2. ...
+- [ ] Build + tests passent (CI verte).
+- [ ] **Preuve de test** fournie (manuel / automatisé : capture, extrait de logs, run CI)
+      — ou changement sans impact fonctionnel (docs / chore) : justification ci-dessous.
+- [ ] Pas de secret committé ni de texte en dur (i18n).
+- [ ] Documentation / ADR à jour si la doctrine change.
 
-**Résultat attendu :**
-...
+<!-- Justification si « sans impact » : … -->
 
-**Résultat obtenu (preuve) :** <!-- Capture, extrait de logs, lien vers le run CI… -->
-...
+## Liens
 
-## Checklist
-
-- [ ] Le rapport de test ci-dessus est rempli avec des preuves (ou l'exception ci-dessous est justifiée).
-- [ ] Ce changement ne nécessite pas de test (docs / chore uniquement) — justification : <!-- obligatoire si coché -->
-- [ ] Les commits suivent la convention (`type(scope): description à l'impératif (#issue)`).
-- [ ] La CI passe (build, lint, tests).
+<!-- Issue(s) (`Closes #123`), ticket Jira (ex. HEX-1234), ADR(s) concernés. -->

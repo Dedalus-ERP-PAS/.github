@@ -22,8 +22,7 @@ Utilisez l'un des canaux privés suivants, par ordre de préférence :
    privilégié : le signalement reste confidentiel et suit le cycle de correction
    via une *security advisory*.
 2. **Contact sécurité** — à défaut (notamment pour les dépôts hébergés sur
-   GitLab), écrivez à `<security-contact@dedalus.com>`
-   *(à confirmer / remplacer par l'adresse ou le PSIRT officiel Dedalus)*.
+   GitLab), écrivez à `sebastien.hug-de-larauze@dedalus.com`.
 
 Merci d'inclure autant d'éléments que possible :
 

@@ -19,7 +19,7 @@ Merci d'utiliser nos projets ! Voici comment obtenir de l'aide efficacement.
 |---|---|
 | **Bug** (comportement incorrect, erreur) | Ouvrez une **issue** avec le modèle *Signalement de bug* (ou un ticket Jira selon le dépôt) |
 | **Demande de fonctionnalité** | Ouvrez une **issue** avec le modèle *Demande de fonctionnalité* |
-| **Question d'usage / intégration** | Canal d'échange interne de l'équipe *(à préciser : Teams / Slack)* |
+| **Question d'usage / intégration** | Canal d'échange interne de l'équipe sur **Microsoft Teams** |
 | **Suivi projet / ticket** | **Jira** (`jira.dedalus.com`), projet du dépôt (ex. `HEX`, `PWT`) |
 | **Vulnérabilité de sécurité** | **Ne pas** ouvrir d'issue — suivez la [politique de sécurité](./SECURITY.md) |
 

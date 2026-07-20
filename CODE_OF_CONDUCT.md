@@ -60,7 +60,7 @@ dans les espaces publics.
 
 Les cas de comportement abusif, harcelant ou autrement inacceptable peuvent être
 signalés aux responsables de la communauté à l'adresse
-`battistella@protonmail.com`. Toutes les plaintes
+`damien.battistella@dedalus.com`. Toutes les plaintes
 seront examinées et étudiées rapidement et équitablement.
 
 Tous les responsables de la communauté sont tenus de respecter la vie privée et

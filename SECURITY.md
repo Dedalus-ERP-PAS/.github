@@ -17,12 +17,13 @@ avant qu'un correctif ne soit disponible.
 
 Utilisez l'un des canaux privés suivants, par ordre de préférence :
 
-1. **GitHub Private Vulnerability Reporting** — pour un dépôt hébergé sur
-   GitHub : onglet **Security → Report a vulnerability**. C'est le canal
-   privilégié : le signalement reste confidentiel et suit le cycle de correction
-   via une *security advisory*.
-2. **Contact sécurité** — à défaut (notamment pour les dépôts hébergés sur
-   GitLab), écrivez à `sebastien.hug-de-larauze@dedalus.com`.
+1. **Contact sécurité** — écrivez à
+   `sebastien.hug-de-larauze@dedalus.com`, pour les dépôts GitHub comme GitLab.
+2. **GitHub Private Vulnerability Reporting** — uniquement pour les dépôts
+   GitHub publics où cette fonctionnalité est activée : onglet
+   **Security → Report a vulnerability**. Le signalement reste confidentiel et
+   suit le cycle de correction via une *security advisory*. Si cette option
+   n'est pas disponible, utilisez le contact sécurité ci-dessus.
 
 Merci d'inclure autant d'éléments que possible :
 

@@ -1,0 +1,32 @@
+name: Tâche
+description: Décrire une tâche technique ou une amélioration interne (non-bug)
+title: "[Task] "
+labels: ["task"]
+body:
+  - type: textarea
+    id: objectif
+    attributes:
+      label: Objectif
+      description: Que faut-il faire, et pourquoi ?
+    validations:
+      required: true
+
+  - type: textarea
+    id: perimetre
+    attributes:
+      label: Périmètre / critères d'acceptation
+      description: Ce qui est inclus, exclu, et comment savoir que c'est terminé.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: input
+    id: reference
+    attributes:
+      label: Référence
+      description: Ticket Jira lié, ADR, ou issue connexe.
+      placeholder: "Ex : HEX-1234 / ADR 0023"
+    validations:
+      required: false

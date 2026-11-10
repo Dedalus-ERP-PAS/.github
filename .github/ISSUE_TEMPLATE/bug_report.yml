@@ -1,0 +1,68 @@
+name: Signalement de bug
+description: Décrire un comportement incorrect pour permettre sa reproduction
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de fournir l'essentiel pour **reproduire et corriger** le problème.
+        Ne joignez pas de données patient réelles ni de secrets.
+
+  - type: dropdown
+    id: environnement
+    attributes:
+      label: Environnement
+      description: Où le problème se produit-il ?
+      options:
+        - Production
+        - Test / Recette
+        - Développement
+        - Production et Test
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version / tag
+      description: Version du composant concerné (souvent décisive pour reproduire).
+      placeholder: "Ex : 4.65.x"
+    validations:
+      required: false
+
+  - type: textarea
+    id: comportement-attendu
+    attributes:
+      label: Comportement attendu
+      description: Ce qui aurait dû se passer.
+    validations:
+      required: true
+
+  - type: textarea
+    id: comportement-observe
+    attributes:
+      label: Comportement observé
+      description: Ce qui se passe réellement. Ajoutez messages, captures ou extraits pertinents.
+    validations:
+      required: true
+
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes de reproduction
+      description: Étapes précises pour reproduire le problème.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Glissez-déposez les fichiers de logs liés (décisifs pour les cas intermittents).
+    validations:
+      required: false

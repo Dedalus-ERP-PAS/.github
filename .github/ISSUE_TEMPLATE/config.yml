@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question ou aide à l'utilisation
+    url: https://github.com/Dedalus-ERP-PAS/.github/blob/main/SUPPORT.md
+    about: Pour une question d'usage ou d'intégration, consultez d'abord le guide de support.
+  - name: Signaler une vulnérabilité de sécurité
+    url: https://github.com/Dedalus-ERP-PAS/.github/blob/main/SECURITY.md
+    about: N'ouvrez jamais d'issue publique pour une faille — suivez la politique de sécurité.
